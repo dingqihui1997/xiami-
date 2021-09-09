@@ -1,0 +1,47 @@
+import React, { useEffect, useState } from 'react'
+import E from 'wangeditor'
+import { Form, Input, Button, Upload, Divider } from 'antd';
+const Details = () => {
+    let [discount, setdiscount] = useState<any>()
+    let [editor, seteditor] = useState<any>()
+    useEffect(() => {
+        if (!editor) {
+            const editor1 = new E(document.getElementById('div1'))
+            editor1.create()
+            seteditor(editor1)
+            editor1.config.onchange = function (newHtml: any) {
+                setdiscount(newHtml);
+            };
+        }
+    }, [])
+    let determine = () => {//确定
+        console.log(discount);
+    }
+    let back = () => {
+
+    }
+    let onFinish = () => {//完成验证
+
+    }
+    return (
+        <div>
+            <Form onFinish={onFinish}>
+                <Form.Item name="detail" label="商品详情" rules={[{ required: true }]}>
+                    <div id="div1">
+                    </div>
+                </Form.Item>
+                <Form.Item>
+                    <div className="mat20">
+                        <Button className="mar15" onClick={back}>取消</Button>
+                        <Button type="primary" htmlType="submit">确认</Button>
+                    </div>
+                </Form.Item>
+
+            </Form>
+
+
+        </div>
+    )
+}
+
+export default Details

@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.middlecenter {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.wi100 {
+    width: 100%;
+}
+
+.hei100 {
+    height: 100%;
+}
+
+.pflex {
+    position: fixed;
+    /* 固定定位 */
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-wa {
+    /* 子元素换行排列 */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.flex-w {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-j {
+    display: flex;
+    justify-content: center;
+    /* 水平方向居中 */
+}
+
+.flex-a {
+    display: flex;
+    align-items: center;
+    /* 垂直方向居中 */
+}
+
+.flex-ja {
+    /* felx-ja 垂直水平方向居中 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-sb {
+    /* flex-sb 子元素两边排列 */
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-sba {
+    /* flex-sb 子元素两边排列 bing居中 */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-d {
+    /* z子元素竖向排列 */
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-e {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flex-di {
+    /* 子元素竖向排列并居中 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-dj {
+    /* 子元素竖向排列并居中 */
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-dji {
+    /* 子元素竖向排列并水平垂直居中 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pad-t10 {
+    padding-top: 10px;
+}
+
+.pad-t20 {
+    padding-top: 20px;
+
+}
+
+.padt25 {
+    padding-top: 25px;
+}
+
+.marr10 {
+    margin-right: 10px;
+}
+
+.pad-t15 {
+    padding-top: 15px;
+}
+
+.pad10 {
+    padding: 10px;
+}
+
+.pab10 {
+    padding-bottom: 10px;
+}
+
+.padr10 {
+    padding-right: 10px;
+}
+
+.mart20 {
+    margin-top: 20px;
+}
+
+.margin-r55 {
+    margin-right: 55px;
+}
+
+.margin10 {
+    margin: 20px 10px;
+}
+
+.marginauto {
+    margin: 0 auto;
+}
+
+.img100 {
+    width: 100%;
+    height: 100%;
+}
+
+.img120 {
+    height: 120%;
+}
+
+.img50 {
+    width: 50%;
+    height: 50%;
+}
+
+.font30 {
+    font-size: 30px;
+}
+
+.font26-icon {
+    font-size: 26px;
+}
+
+.font24 {
+    font-size: 24px;
+}
+
+.font22 {
+    font-size: 22px;
+}
+
+.font20 {
+    font-size: 20px;
+}
+
+.font18 {
+    font-size: 18px;
+}
+
+.font16 {
+    font-size: 16px;
+}
+
+.font14 {
+    font-size: 14px;
+}
+
+.font12 {
+    font-size: 12px;
+}
+
+.flex1 {
+    flex: 1;
+}
+
+.flex2 {
+    flex: 2
+}
+
+.color30 {
+    color: #000000;
+}
+
+.color3f {
+    /* 白色 */
+    color: #fff;
+}
+
+.back3f {
+    background-color: #fff;
+}
+
+.margintb {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mat10 {
+    margin-top: 10px;
+}
+
+.mat5 {
+    margin-top: 5px;
+}
+
+.mat20 {
+    margin-top: 20px;
+}
+
+.mar5 {
+    margin-right: 5px;
+}
+
+.mar15 {
+    margin-right: 15px;
+}
+
+.margin-r10 {
+    margin-right: 10px;
+}
+
+.margin-r20 {
+    margin-right: 20px;
+}
+
+.mar30 {
+    margin-right: 30px;
+}
+
+.mal10 {
+    margin-left: 10px;
+}
+
+.mal20 {
+    margin-left: 20px;
+}
+
+.eee {
+    color: #666;
+}
+
+.marl25 {
+    margin-left: 25px;
+}
+
+.marl30 {
+    margin-left: 30px;
+
+}
+
+.margin-b10 {
+    margin-bottom: 10px;
+}
+
+.padlr10 {
+    padding: 0 10px;
+}
+
+.color1FF {
+    color: #0091FF;
+}
+
+.margin10 {
+    margin: 0px 10px;
+}
+
+.margin-b20 {
+    margin-bottom: 20px;
+}
+
+.text-de {
+    /* 有下划线 */
+    text-decoration: underline;
+}
+
+.text-li {
+    text-decoration: line-through;
+    /* 删除线 */
+}
+
+.font-w7 {
+    /* 加粗 */
+    font-weight: 700;
+}
+
+.fontstyle-i {
+    /* 斜体 */
+    font-style: italic;
+}
+
+.shuoming {
+    position: relative;
+    top: 55px
+}
+
+.textr {
+    text-align: right;
+}
+
+.nowap {
+    white-space: nowrap;
+}
+
+.mar-le20 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.marr20 {
+    margin-right: 20px;
+}
+
+.a0a0 {
+    color: #a0a0a0;
+}
